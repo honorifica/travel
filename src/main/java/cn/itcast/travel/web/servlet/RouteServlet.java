@@ -32,7 +32,8 @@ public class RouteServlet extends BaseServlet {
         String pageSizeStr = request.getParameter("pageSize");
         String cidStr = request.getParameter("cid");
 
-        //接受rname 线路名称
+        //接受rname 线路名称 P
+
         String rname = request.getParameter("rname");
         rname = new String(rname.getBytes("iso-8859-1"),"utf-8");
 
